@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fffaf7;
+  color: #3b2e1e;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background: #fdeee6;
+  padding: 10px 0;
+  height: 132px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 47px;
+  align-self: center;
+  position: relative;
+  left: 340px;
+  font-size: 28px;
+
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #3b2e1e;
+
+}
+
+.logo {
+  height: 102px;
+  position: relative;
+  bottom: 15px;
+}
+
+.firstscreen {
+  background: url('images/firstscreen.png') center no-repeat;
+  background-size: cover;
+  padding: 60px 20px;
+  text-align: left;
+  height: 600px;
+}
+
+.firstscreen h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+  width: 880px;
+  text-align: center;
+}
+
+.firstscreen p {
+  font-size: 40px;
+  margin-bottom: 20px;
+  width: 969px;
+}
+
+.btn, .menubtn {
+  background: #826b5e;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  position: relative;
+  top: 49px;
+  width: 359px;
+  height: 59px;
+  font-size: 32px;
+}
+
+.announcement {
+  background: #ffe6f0;
+  text-align: center;
+  padding: 20px;
+  font-size: 34px;
+}
+
+.menu h2,
+.benefits h2,
+.about h2,
+.team h2,
+.order h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: left;
+  font-size: 30px;
+}
+
+.desc {
+  font-size: 25px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h3 {
+  text-align: center;
+}
+
+.old-price {
+  color: #888;
+  margin-left: 8px;
+  font-size: 25px;
+}
+
+.menubtn {
+  margin-left: 470px;
+
+}
+
+
+
+.benefits {
+  background: #ffe6f0;
+  padding: 40px 20px;
+  margin-top: 60px;
+}
+
+.benefit-list {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.benefit {
+  text-align: center;
+  max-width: 300px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.benefit img {
+  width: 104px;
+  height: 110px;
+}
+
+.delivery img {
+  width: 148px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+
+}
+
+
+.about-text {
+    font-size: 25px;
+    background-color: #FFF3E8;
+    width: 690px;
+    height: 411px;
+    padding: 10px;
+}
+
+.about-image {
+  position: relative;
+  left: 640px;
+  top: -160px;
+}
+
+
+.team {
+  background: #ffe3ec;
+  width: 100%;
+  font-size: 28px;
+}
+
+.team-grid {
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.team-member img {
+  width: 120px;
+  border-radius: 100%;
+  margin-bottom: 8px;
+}
+
+.footer {
+  background: #ffe3ec;
+  padding: 30px 0;
+  font-size: 25px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.socials img {
+  width: 60px;
+  margin: 0 8px;
+}
+
+.order {
+  font-size: 32px;
+  padding: 40px 0;
+  background-color: #FFF3E8;
+  border-top: 2px solid #3D2708;
+  margin-top: 60px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.order h2 {
+
+  margin-bottom: 20px;
+  color: #3D2708;
+}
+
+.order-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+.order-form label {
+
+  color: #3D2708;
+}
+
+.order-form input,
+.order-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #3D2708;
+  font-size: 20px;
+  background: #fff;
+}
+
+
+.order-form .btn {
+  margin-left: 70px;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 40px;
+
+}
