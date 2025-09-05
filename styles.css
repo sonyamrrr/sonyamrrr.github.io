@@ -95,6 +95,17 @@ a:hover {
 	border-radius: 500px;
 }
 
+ul {
+    list-style-position: inside;
+}
+
+li {
+  list-style-image: url('img/listimg.png'); 
+  padding-left: 20px;
+}
+
+
+
 .bio-text {
 	
 }
